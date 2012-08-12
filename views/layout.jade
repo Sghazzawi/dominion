@@ -3,4 +3,12 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body!= body
+    script(type="text/javascript",src="javascripts/underscore-min.js")
+    script(type="text/javascript",src="javascripts/backbone-min.js")
+  body
+    div#header.header.row
+    div#body.body.row
+      div#nav.nav.col
+      div#main.main.col!= body
+    div#footer.footer.row
+  

@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.row .col {
+.row, .col {
   overflow: hidden; 
   position: absolute;
 }
@@ -30,6 +30,16 @@ body {
 .footer.row {
   height:50px;
   bottom:0;
+}
+
+.nav.col{
+left:0;
+width:160px;
+}
+
+.main.col{
+left:160px;
+right:0;
 }
 
 a {
