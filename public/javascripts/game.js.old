@@ -1,0 +1,14 @@
+
+/*var Game= Backbone.Model.extend({
+  CreateRenderFunction: function(paper, region){
+      return function(){
+       c=paper[region.get("type")](region.get("d")).attr(region.get("attr"));
+       return c;
+      }*/
+$(function(){
+now.ready(function(){
+
+now.game();
+
+});
+}

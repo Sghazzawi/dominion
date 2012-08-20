@@ -3,10 +3,15 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-    script(type="text/javascript",src="javascripts/underscore-min.js")
-    script(type="text/javascript",src="javascripts/backbone-min.js")
+    script(type="text/javascript",src="/javascripts/jquery-1.7.2.min.js")
+    script(type="text/javascript",src="/javascripts/underscore-min.js")
+    script(type="text/javascript",src="/javascripts/backbone-min.js")
+    script(type="text/javascript",src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js")
+    script(type="text/javascript",src="/nowjs/now.js")
+    link(rel='stylesheet', href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/ui-darkness/jquery-ui.css')
   body
     div#header.header.row
+      p.fontface Realm
     div#body.body.row
       div#nav.nav.col
       div#main.main.col!= body

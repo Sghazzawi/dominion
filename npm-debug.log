@@ -1,0 +1,426 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', '-g', 'node-inspector' ]
+info using npm@1.1.15
+info using node@v0.8.1
+verbose /usr/bin/node node symlink
+verbose config file /home/ubuntu/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/lib/node_modules/npm/npmrc
+verbose cache add [ 'node-inspector', null ]
+silly cache add: name, spec, args [ undefined, 'node-inspector', [ 'node-inspector', null ] ]
+verbose parsed url { pathname: 'node-inspector',
+verbose parsed url   path: 'node-inspector',
+verbose parsed url   href: 'node-inspector' }
+verbose addNamed [ 'node-inspector', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'node-inspector', '', false ]
+verbose raw, before any munging node-inspector
+verbose url resolving [ 'https://registry.npmjs.org/', './node-inspector' ]
+verbose url resolved https://registry.npmjs.org/node-inspector
+verbose etag "2488F311MX8EE1E0U4RHUI67I"
+http GET https://registry.npmjs.org/node-inspector
+http 304 https://registry.npmjs.org/node-inspector
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2488F311MX8EE1E0U4RHUI67I"',
+silly get cb     date: 'Thu, 16 Aug 2012 18:15:26 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag node-inspector from cache
+silly name, range, hasData 2 [ 'node-inspector', '', true ]
+silly versions [ 'node-inspector',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.2.0beta1',
+silly versions     '0.2.0beta2',
+silly versions     '0.2.0beta3' ] ]
+verbose bin dist [ '0.8-ares1.7.5-DEV-evundefined-openssl1.0.0f-v83.11.10.12-linux-x64-3.0.0-16-virtual',
+verbose bin dist   { shasum: '2adb552da7757ff3d4ec549f5570799355952d20',
+verbose bin dist     tarball: 'http://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz' } ]
+verbose caching /home/ubuntu/.npm/node-inspector/0.2.0beta3/package/package.json
+verbose loadDefaults node-inspector@0.2.0beta3
+silly resolved [ { name: 'node-inspector',
+silly resolved     version: '0.2.0beta3',
+silly resolved     description: 'Web Inspector based nodeJS debugger',
+silly resolved     homepage: 'http://github.com/dannycoates/node-inspector',
+silly resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+silly resolved     keywords: [ 'debug', 'debugger', 'inspector', 'profiler' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/dannycoates/node-inspector.git' },
+silly resolved     engines: { node: '>=0.6.0' },
+silly resolved     bin: { 'node-inspector': './bin/inspector.js' },
+silly resolved     dependencies: { 'socket.io': '~0.9', connect: '~1.8.5', async: '~0.1' },
+silly resolved     preferGlobal: true,
+silly resolved     _npmUser: { name: 'sharif.ghazzawi', email: 'sharif.ghazzawi@gmail.com' },
+silly resolved     _id: 'node-inspector@0.2.0beta3',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.15',
+silly resolved     _nodeVersion: 'v0.8.1',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'node-inspector',
+silly resolved     scripts: {} } ]
+info into /usr/lib node-inspector@0.2.0beta3
+info installOne node-inspector@0.2.0beta3
+verbose from cache /home/ubuntu/.npm/node-inspector/0.2.0beta3/package/package.json
+info unbuild /usr/lib/node_modules/node-inspector
+verbose unpack /home/ubuntu/.npm/node-inspector/0.2.0beta3/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry lib/protocol.js
+silly extracting entry lib/v2w.js
+silly extracting entry lib/callback.js
+silly extracting entry lib/debug-server.js
+silly extracting entry lib/session2.js
+silly extracting entry lib/client.js
+silly extracting entry lib/front-end/location.js
+silly extracting entry lib/front-end/debugger.js
+silly extracting entry lib/front-end/browser.js
+silly extracting entry lib/front-end/callframe.js
+silly extracting entry lib/front-end/scope.js
+silly extracting entry lib/front-end/runtime.js
+silly extracting entry lib/front-end/console.js
+silly extracting entry lib/front-end/remote-object.js
+silly extracting entry bin/inspector.js
+silly extracting entry config.json
+silly extracting entry test/hello.js
+silly extracting entry readme.md
+silly extracting entry front-end/devtools.js
+silly extracting entry front-end/textPrompt.css
+silly extracting entry front-end/helpScreen.css
+silly extracting entry front-end/navigatorView.css
+silly extracting entry front-end/devtools.css
+silly extracting entry front-end/tabbedPane.css
+silly extracting entry front-end/Images/applicationCache.png
+silly extracting entry front-end/Images/statusbarButtonsChromium.png
+silly extracting entry front-end/Images/recordToggledButtonGlyph.png
+silly extracting entry front-end/Images/treeUpTriangleBlack.png
+silly extracting entry front-end/Images/breakpointConditionalCounterBorder.png
+silly extracting entry front-end/Images/thumbVert.png
+silly extracting entry front-end/Images/debuggerStepOver.png
+silly extracting entry front-end/Images/timelinePillGreen.png
+silly extracting entry front-end/Images/paneBottomGrowActive.png
+silly extracting entry front-end/Images/database.png
+silly extracting entry front-end/Images/segmentSelectedEnd.png
+silly extracting entry front-end/Images/paneGrowHandleLine.png
+silly extracting entry front-end/Images/profileIcon.png
+silly extracting entry front-end/Images/treeRightTriangleWhite.png
+silly extracting entry front-end/Images/warningOrangeDot.png
+silly extracting entry front-end/Images/radioDot.png
+silly extracting entry front-end/Images/programCounterBorder.png
+silly extracting entry front-end/Images/statusbarBottomBackground.png
+silly extracting entry front-end/Images/treeDownTriangleBlack.png
+silly extracting entry front-end/Images/graphLabelCalloutRight.png
+silly extracting entry front-end/Images/treeRightTriangleBlack.png
+silly extracting entry front-end/Images/userInputIcon.png
+silly extracting entry front-end/Images/back.png
+silly extracting entry front-end/Images/userInputResultIcon.png
+silly extracting entry front-end/Images/timelineBarBlue.png
+silly extracting entry front-end/Images/spinnerInactiveSelected.gif
+silly extracting entry front-end/Images/timelineIcon.png
+silly extracting entry front-end/Images/timelinePillPurple.png
+silly extracting entry front-end/Images/resourcesTimeGraphIcon.png
+silly extracting entry front-end/Images/splitviewDividerBackground.png
+silly extracting entry front-end/Images/segmentSelected.png
+silly extracting entry front-end/Images/timelineHollowPillBlue.png
+silly extracting entry front-end/Images/timelineDots.png
+silly extracting entry front-end/Images/excludeButtonGlyph.png
+silly extracting entry front-end/Images/thumbActiveVert.png
+silly extracting entry front-end/Images/treeDownTriangleWhite.png
+silly extracting entry front-end/Images/largerResourcesButtonGlyph.png
+silly extracting entry front-end/Images/treeUpTriangleWhite.png
+silly extracting entry front-end/Images/disclosureTriangleSmallDownBlack.png
+silly extracting entry front-end/Images/errorMediumIcon.png
+silly extracting entry front-end/Images/spinnerActiveSelected.gif
+silly extracting entry front-end/Images/warningMediumIcon.png
+silly extracting entry front-end/Images/thumbActiveHoriz.png
+silly extracting entry front-end/Images/localStorage.png
+silly extracting entry front-end/Images/searchSmallBlue.png
+silly extracting entry front-end/Images/disclosureTriangleSmallRightDownBlack.png
+silly extracting entry front-end/Images/debuggerPause.png
+silly extracting entry front-end/Images/databaseTable.png
+silly extracting entry front-end/Images/timelineBarGray.png
+silly extracting entry front-end/Images/debuggerStepOut.png
+silly extracting entry front-end/Images/statusbarMenuButtonSelectedChromium.png
+silly extracting entry front-end/Images/trackHoriz.png
+silly extracting entry front-end/Images/profileSmallIcon.png
+silly extracting entry front-end/Images/segmentHoverEnd.png
+silly extracting entry front-end/Images/timelineBarOrange.png
+silly extracting entry front-end/Images/successGreenDot.png
+silly extracting entry front-end/Images/statusbarButtons.png
+silly extracting entry front-end/Images/resourcesIcon.png
+silly extracting entry front-end/Images/splitviewDimple.png
+silly extracting entry front-end/Images/resourceDocumentIcon.png
+silly extracting entry front-end/Images/resourcePlainIcon.png
+silly extracting entry front-end/Images/disclosureTriangleSmallDown.png
+silly extracting entry front-end/Images/statusbarBackgroundChromium.png
+silly extracting entry front-end/Images/timelineBarGreen.png
+silly extracting entry front-end/Images/frame.png
+silly extracting entry front-end/Images/timelineHollowPillGray.png
+silly extracting entry front-end/Images/timelinePillRed.png
+silly extracting entry front-end/Images/toolbarItemSelected.png
+silly extracting entry front-end/Images/breakpointsActivateButtonGlyph.png
+silly extracting entry front-end/Images/timelineHollowPillPurple.png
+silly extracting entry front-end/Images/paneRefreshButtons.png
+silly extracting entry front-end/Images/timelineHollowPillGreen.png
+silly extracting entry front-end/Images/sessionStorage.png
+silly extracting entry front-end/Images/statusbarBottomBackgroundChromium.png
+silly extracting entry front-end/Images/popoverBackground.png
+silly extracting entry front-end/Images/paneAddButtons.png
+silly extracting entry front-end/Images/timelineBarPurple.png
+silly extracting entry front-end/Images/disclosureTriangleSmallRightDownWhite.png
+silly extracting entry front-end/Images/statusbarMenuButtonSelected.png
+silly extracting entry front-end/Images/statusbarMenuButtonChromium.png
+silly extracting entry front-end/Images/breakpointConditionalBorder.png
+silly extracting entry front-end/Images/breakpointsDeactivateButtonGlyph.png
+silly extracting entry front-end/Images/focusButtonGlyph.png
+silly extracting entry front-end/Images/spinnerActive.gif
+silly extracting entry front-end/Images/consoleIcon.png
+silly extracting entry front-end/Images/spinnerInactive.gif
+silly extracting entry front-end/Images/disclosureTriangleSmallRight.png
+silly extracting entry front-end/Images/resourceCSSIcon.png
+silly extracting entry front-end/Images/disclosureTriangleSmallRightDown.png
+silly extracting entry front-end/Images/breakpointCounterBorder.png
+silly extracting entry front-end/Images/warningIcon.png
+silly extracting entry front-end/Images/checker.png
+silly extracting entry front-end/Images/resourcesSizeGraphIcon.png
+silly extracting entry front-end/Images/statusbarButtonGlyphs.png
+silly extracting entry front-end/Images/glossyHeaderPressed.png
+silly extracting entry front-end/Images/closeButtons.png
+silly extracting entry front-end/Images/errorIcon.png
+silly extracting entry front-end/Images/thumbHoriz.png
+silly extracting entry front-end/Images/searchSmallGray.png
+silly extracting entry front-end/Images/clearConsoleButtonGlyph.png
+silly extracting entry front-end/Images/deleteIcon.png
+silly extracting entry front-end/Images/timelineHollowPillRed.png
+silly extracting entry front-end/Images/resourcePlainIconSmall.png
+silly extracting entry front-end/Images/recordButtonGlyph.png
+silly extracting entry front-end/Images/scriptsSilhouette.png
+silly extracting entry front-end/Images/timelinePillBlue.png
+silly extracting entry front-end/Images/timelineBarYellow.png
+silly extracting entry front-end/Images/segmentEnd.png
+silly extracting entry front-end/Images/nodeSearchButtonGlyph.png
+silly extracting entry front-end/Images/disclosureTriangleSmallRightBlack.png
+silly extracting entry front-end/Images/statusbarMenuButton.png
+silly extracting entry front-end/Images/thumbHoverVert.png
+silly extracting entry front-end/Images/goArrow.png
+silly extracting entry front-end/Images/timelinePillYellow.png
+silly extracting entry front-end/Images/thumbHoverHoriz.png
+silly extracting entry front-end/Images/warningsErrors.png
+silly extracting entry front-end/Images/enableSolidButtonGlyph.png
+silly extracting entry front-end/Images/cookie.png
+silly extracting entry front-end/Images/searchSmallWhite.png
+silly extracting entry front-end/Images/paneSettingsButtons.png
+silly extracting entry front-end/Images/errorRedDot.png
+silly extracting entry front-end/Images/timelineHollowPillYellow.png
+silly extracting entry front-end/Images/undockButtonGlyph.png
+silly extracting entry front-end/Images/percentButtonGlyph.png
+silly extracting entry front-end/Images/timelineCheckmarks.png
+silly extracting entry front-end/Images/gearButtonGlyph.png
+silly extracting entry front-end/Images/glossyHeaderSelectedPressed.png
+silly extracting entry front-end/Images/glossyHeaderSelected.png
+silly extracting entry front-end/Images/graphLabelCalloutLeft.png
+silly extracting entry front-end/Images/profilesSilhouette.png
+silly extracting entry front-end/Images/searchSmallBrightBlue.png
+silly extracting entry front-end/Images/userInputPreviousIcon.png
+silly extracting entry front-end/Images/disclosureTriangleSmallDownWhite.png
+silly extracting entry front-end/Images/timelinePillGray.png
+silly extracting entry front-end/Images/paneBottomGrow.png
+silly extracting entry front-end/Images/consoleButtonGlyph.png
+silly extracting entry front-end/Images/paneFilterButtons.png
+silly extracting entry front-end/Images/enableOutlineButtonGlyph.png
+silly extracting entry front-end/Images/timelineHollowPillOrange.png
+silly extracting entry front-end/Images/elementsIcon.png
+silly extracting entry front-end/Images/segmentHover.png
+silly extracting entry front-end/Images/paneElementStateButtons.png
+silly extracting entry front-end/Images/statusbarResizerVertical.png
+silly extracting entry front-end/Images/reloadButtonGlyph.png
+silly extracting entry front-end/Images/spinner.gif
+silly extracting entry front-end/Images/navigatorShowHideButton.png
+silly extracting entry front-end/Images/segment.png
+silly extracting entry front-end/Images/networkIcon.png
+silly extracting entry front-end/Images/glossyHeader.png
+silly extracting entry front-end/Images/resourceDocumentIconSmall.png
+silly extracting entry front-end/Images/pauseOnExceptionButtonGlyph.png
+silly extracting entry front-end/Images/scriptsIcon.png
+silly extracting entry front-end/Images/debuggerContinue.png
+silly extracting entry front-end/Images/statusbarBackground.png
+silly extracting entry front-end/Images/timelineBarRed.png
+silly extracting entry front-end/Images/profileGroupIcon.png
+silly extracting entry front-end/Images/debuggerStepInto.png
+silly extracting entry front-end/Images/popoverArrows.png
+silly extracting entry front-end/Images/profilesIcon.png
+silly extracting entry front-end/Images/breakpointBorder.png
+silly extracting entry front-end/Images/dockButtonGlyph.png
+silly extracting entry front-end/Images/forward.png
+silly extracting entry front-end/Images/auditsIcon.png
+silly extracting entry front-end/Images/statusbarResizerHorizontal.png
+silly extracting entry front-end/Images/resourceJSIcon.png
+silly extracting entry front-end/Images/toolbarIcons.png
+silly extracting entry front-end/Images/disclosureTriangleSmallRightWhite.png
+silly extracting entry front-end/Images/toolbarIconsSmall.png
+silly extracting entry front-end/Images/timelinePillOrange.png
+silly extracting entry front-end/Images/trackVert.png
+silly extracting entry front-end/node/InspectorFrontendHostStub.js
+silly extracting entry front-end/node/InspectorBackendStub.js
+silly extracting entry front-end/node/Overrides.js
+silly extracting entry front-end/scriptsPanel.css
+silly extracting entry front-end/index.html
+silly extracting entry front-end/splitView.css
+silly extracting entry front-end/textViewer.css
+silly extracting entry ChangeLog
+verbose caching /usr/lib/node_modules/node-inspector/package.json
+verbose loadDefaults node-inspector@0.2.0beta3
+info preinstall node-inspector@0.2.0beta3
+verbose from cache /usr/lib/node_modules/node-inspector/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/lib/node_modules/node-inspector/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'socket.io@~0.9', null ]
+silly cache add: name, spec, args [ undefined, 'socket.io@~0.9', [ 'socket.io@~0.9', null ] ]
+verbose parsed url { pathname: 'socket.io@~0.9',
+verbose parsed url   path: 'socket.io@~0.9',
+verbose parsed url   href: 'socket.io@~0.9' }
+silly cache add: name, spec, args [ 'socket.io', '~0.9', [ 'socket.io', '~0.9' ] ]
+verbose parsed url { pathname: '~0.9', path: '~0.9', href: '~0.9' }
+verbose addNamed [ 'socket.io', '~0.9' ]
+verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+silly name, range, hasData [ 'socket.io', '>=0.9.0- <0.10.0-', false ]
+verbose cache add [ 'connect@~1.8.5', null ]
+silly cache add: name, spec, args [ undefined, 'connect@~1.8.5', [ 'connect@~1.8.5', null ] ]
+verbose parsed url { pathname: 'connect@~1.8.5',
+verbose parsed url   path: 'connect@~1.8.5',
+verbose parsed url   href: 'connect@~1.8.5' }
+silly cache add: name, spec, args [ 'connect', '~1.8.5', [ 'connect', '~1.8.5' ] ]
+verbose parsed url { pathname: '~1.8.5', path: '~1.8.5', href: '~1.8.5' }
+verbose addNamed [ 'connect', '~1.8.5' ]
+verbose addNamed [ null, '>=1.8.5- <1.9.0-' ]
+silly name, range, hasData [ 'connect', '>=1.8.5- <1.9.0-', false ]
+verbose cache add [ 'async@~0.1', null ]
+silly cache add: name, spec, args [ undefined, 'async@~0.1', [ 'async@~0.1', null ] ]
+verbose parsed url { pathname: 'async@~0.1',
+verbose parsed url   path: 'async@~0.1',
+verbose parsed url   href: 'async@~0.1' }
+silly cache add: name, spec, args [ 'async', '~0.1', [ 'async', '~0.1' ] ]
+verbose parsed url { pathname: '~0.1', path: '~0.1', href: '~0.1' }
+verbose addNamed [ 'async', '~0.1' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+silly name, range, hasData [ 'async', '>=0.1.0- <0.2.0-', false ]
+verbose raw, before any munging async
+verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+verbose url resolved https://registry.npmjs.org/async
+http GET https://registry.npmjs.org/async
+verbose raw, before any munging socket.io
+verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+verbose url resolved https://registry.npmjs.org/socket.io
+verbose etag "VO1X4T76QKAX84RFZQ4WTZJR"
+http GET https://registry.npmjs.org/socket.io
+verbose raw, before any munging connect
+verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+verbose url resolved https://registry.npmjs.org/connect
+verbose etag "9R4ZY4AGKD6GWDX50SUBRBHQZ"
+http GET https://registry.npmjs.org/connect
+http 304 https://registry.npmjs.org/connect
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"9R4ZY4AGKD6GWDX50SUBRBHQZ"',
+silly get cb     date: 'Thu, 16 Aug 2012 18:15:27 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect from cache
+silly name, range, hasData 2 [ 'connect', '>=1.8.5- <1.9.0-', true ]
+silly versions [ 'connect',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.5.10',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '2.2.2',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.3.2',
+silly versions     '2.3.3',
+silly versions     '1.9.1',
+silly versions     '2.3.4',
+silly versions     '2.3.5',
+silly versions     '2.3.6',
+silly versions     '2.3.7',
+silly versions     '1.9.2',
+silly versions     '2.3.8',
+silly versions     '2.3.9',
+silly versions     '2.4.0',
+silly versions     '2.4.1',
+silly versions     '2.4.2',
+silly versions     '2.4.3' ] ]
+verbose about to build /usr/lib/node_modules/node-inspector
+info unbuild /usr/lib/node_modules/node-inspector
+verbose from cache /usr/lib/node_modules/node-inspector/package.json
+info preuninstall node-inspector@0.2.0beta3
+info uninstall node-inspector@0.2.0beta3
+verbose unbuild node-inspector@0.2.0beta3 [ true, '/usr/lib/node_modules', '/usr/lib/node_modules' ]
+verbose binRoot [ '/usr/bin', { 'node-inspector': './bin/inspector.js' } ]
+info postuninstall node-inspector@0.2.0beta3
+ERR! Error: No compatible version found: connect@'>=1.8.5- <1.9.0-'
+ERR! Valid install targets:
+ERR! ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.1.0","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.3.0","0.4.0","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.5.9","0.5.10","1.0.0","1.0.1","2.2.2","2.3.0","2.3.1","2.3.2","2.3.3","1.9.1","2.3.4","2.3.5","2.3.6","2.3.7","1.9.2","2.3.8","2.3.9","2.4.0","2.4.1","2.4.2","2.4.3"]
+ERR!     at installTargetsError (/usr/lib/node_modules/npm/lib/cache.js:486:10)
+ERR!     at next_ (/usr/lib/node_modules/npm/lib/cache.js:436:17)
+ERR!     at next (/usr/lib/node_modules/npm/lib/cache.js:413:44)
+ERR!     at /usr/lib/node_modules/npm/lib/cache.js:406:5
+ERR!     at saved (/usr/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:151:7)
+ERR!     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:230:7
+ERR!     at Object.oncomplete (fs.js:297:15)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 3.0.0-16-virtual
+ERR! command "node" "/usr/bin/npm" "install" "-g" "node-inspector"
+ERR! cwd /home/ubuntu/dominion
+ERR! node -v v0.8.1
+ERR! npm -v 1.1.15
+ERR! message No compatible version found: connect@'>=1.8.5- <1.9.0-'
+ERR! message Valid install targets:
+ERR! message ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.1.0","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.3.0","0.4.0","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.5.9","0.5.10","1.0.0","1.0.1","2.2.2","2.3.0","2.3.1","2.3.2","2.3.3","1.9.1","2.3.4","2.3.5","2.3.6","2.3.7","1.9.2","2.3.8","2.3.9","2.4.0","2.4.1","2.4.2","2.4.3"]
+verbose exit [ 1, true ]
